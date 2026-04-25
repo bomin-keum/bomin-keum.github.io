@@ -1,6 +1,7 @@
 ---
 title: "How Incel research looks to a former Incel"
 collection: publications
+category: published
 permalink: /publication/incel-research-2026
 date: 2026-02-09
 venue: 'Critical Studies on Terrorism'
