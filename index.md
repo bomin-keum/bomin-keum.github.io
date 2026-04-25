@@ -17,20 +17,28 @@ Hi! I am a PhD student at the International CyberCrime Research Institute in Sim
 <ul>
 {% for post in site.publications reversed %}
   {% if post.category == 'published' %}
-    <li style="margin-bottom: 15px;">{{ post.citation }}</li>
+    <li style="margin-bottom: 15px;">{{ post.citation | markdownify }}</li>
   {% endif %}
 {% endfor %}
 </ul>
 
 ### Under Review
-<ul>{% for post in site.publications reversed %}{% if post.category == 'under_review' %}
-  {% include archive-single-cv.html %}
-{% endif %}{% endfor %}</ul>
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.category == 'under_review' %}
+    <li style="margin-bottom: 15px;">{{ post.citation | markdownify }}</li>
+  {% endif %}
+{% endfor %}
+</ul>
 
 ### Working Papers
-<ul>{% for post in site.publications reversed %}{% if post.category == 'working_paper' %}
-  {% include archive-single-cv.html %}
-{% endif %}{% endfor %}</ul>
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.category == 'working_paper' %}
+    <li style="margin-bottom: 15px;">{{ post.citation | markdownify }}</li>
+  {% endif %}
+{% endfor %}
+</ul>
 
 ---
 
