@@ -18,17 +18,19 @@ Education
 Publications
 ======
 ### Published (First/Co-author)
-<ul>{% for post in site.publications reversed %}
+<ul>{% for post in site.publications reversed %}{% if post.category == 'manuscripts' %}
   {% include archive-single-cv.html %}
-{% endfor %}</ul>
+{% endif %}{% endfor %}</ul>
 
 ### Under Review
-* **End Justifies Nothing? Nihilism in StormFront.org vs Incels.is**. Keum, B. M., & Frank, R. (forthcoming). In *Digital Codes for Danger*. CRC Press. (Revised & Resubmitted: Feb 15 2026)
-* **Leaving, But Not Gone: r/IncelExit and the Missing “After”**. Keum, B. M., & Frank, R. (forthcoming). In M. Erendor (Ed.), *Digital Codes for Danger*. CRC Press. (Revised & Resubmitted: Feb 15 2026)
+<ul>{% for post in site.publications reversed %}{% if post.category == 'under_review' %}
+  {% include archive-single-cv.html %}
+{% endif %}{% endfor %}</ul>
 
 ### Working Papers
-* **Incels' Path Not Taken—and Why They Matter Now**. (Based on *Internet Histories* research).
-* *Note: Please contact me directly for PDFs of working papers.*
+<ul>{% for post in site.publications reversed %}{% if post.category == 'working_paper' %}
+  {% include archive-single-cv.html %}
+{% endif %}{% endfor %}</ul>
   
 Talks
 ======
