@@ -34,9 +34,12 @@ Hi! I am a PhD student at the International CyberCrime Research Institute in Sim
 <a name="cv"></a>
 # CV
 
-[Download CV as PDF](/assets/Bomin_Keum_CV.pdf){: .btn .btn--info}
-
-<iframe src="/assets/Bomin_Keum_CV.pdf" width="100%" height="800px"></iframe>
+<div style="margin-top: 20px;">
+  <iframe src="/assets/Bomin_Keum_CV.pdf" width="100%" height="1000px" style="border: none;">
+    This browser does not support PDFs. Please download the PDF to view it: 
+    <a href="/assets/Bomin_Keum_CV.pdf">Download PDF</a>.
+  </iframe>
+</div>
 
 ---
 
