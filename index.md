@@ -1,8 +1,6 @@
 ---
 layout: single
 author_profile: true
-permalink: /
-classes: wide
 ---
 
 <a name="about"></a>
