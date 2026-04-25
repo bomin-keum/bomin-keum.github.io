@@ -1,11 +1,9 @@
 main:
   - title: "About"
-    url: /
+    url: "/#about"
   - title: "Research"
-    url: /publications/
-  - title: "Talks"
-    url: /talks/
-  - title: "Teaching"
-    url: /teaching/
+    url: "/#research"
   - title: "CV"
-    url: /cv/
+    url: "/#cv"
+  - title: "Contact"
+    url: "/#contact"
