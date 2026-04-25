@@ -2,14 +2,21 @@
 url: "https://bomin-keum.github.io"
 baseurl: ""
 repository: "bomin-keum/bomin-keum.github.io"
+# remote_theme: "academicpages/academicpages.github.io"
 teaser: null
 locale: "en-US"
 
 # Theme Settings
-minimal_mistakes_skin: "default" # background white
+minimal_mistakes_skin: "default"
 search: false
+layout: single
+author_profile: true
 
-# Place--top Left Name and Affiliation
+# Removes the top navigation bar
+masthead:
+  enabled: false
+
+# Top Left Name and Affiliation
 title: "Bo Min Keum"
 name: "Bo Min Keum"
 description: "PhD Student <br> International Cybercrime Research Institute, SFU"
@@ -37,7 +44,3 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-
-# Removes the top navigation bar, to left hand side
-masthead:
-  enabled: false
