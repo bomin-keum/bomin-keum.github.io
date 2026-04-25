@@ -29,8 +29,8 @@ description: "PhD Student <br> International Cybercrime Research Institute, SFU"
 
 author:
   name: "Bomin Keum"
-  bio: "PhD Student<br>International CyberCrime Research Institute, SFU"
-  location: "Canada"
+  bio: "PhD Student<br>ICCRI, SFU"
+  follow_button: false
   links:
     - label: "About"
       icon: "fas fa-fw fa-user"
