@@ -1,9 +1,9 @@
 main:
-  - title: "About"
+  - title: '<i class="fas fa-fw fa-user-circle"></i> About'
     url: "#about"
-  - title: "Research"
+  - title: '<i class="fas fa-fw fa-flask"></i> Research'
     url: "#research"
-  - title: "CV"
+  - title: '<i class="fas fa-fw fa-file-alt"></i> CV'
     url: "#cv"
-  - title: "Contact"
+  - title: '<i class="fas fa-fw fa-paper-plane"></i> Contact'
     url: "#contact"
