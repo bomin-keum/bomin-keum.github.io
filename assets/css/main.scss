@@ -1,19 +1,12 @@
 ---
 ---
 
-/*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
- */
-
 @import
     "vendor/breakpoint/breakpoint",
-
     "themes",
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    // "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}", <--- ADD SLASHES HERE
+    // "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
     "include/mixins",
     "vendor/susy/susy",
 
@@ -38,9 +31,9 @@
 
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
-;
+    "vendor/font-awesome/brands";
 
+/* The CSS Hammer - to hide the top bar */
 .masthead {
   display: none !important;
 }
