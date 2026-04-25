@@ -2,12 +2,11 @@
 url: "https://bomin-keum.github.io"
 baseurl: ""
 repository: "bomin-keum/bomin-keum.github.io"
-# remote_theme: "academicpages/academicpages.github.io"
-teaser: null
-locale: "en-US"
-
-# Forced White Skin and Sidebar
+remote_theme: "mmistakes/minimal-mistakes" # THIS IS THE KEY CHANGE
 minimal_mistakes_skin: "default"
+
+# Theme Settings
+search: false
 layout: single
 author_profile: true
 
