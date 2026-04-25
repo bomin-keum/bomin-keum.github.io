@@ -1,6 +1,7 @@
 ---
 title: "What do Incels.is users post before going silent? A thematic content analysis"
 collection: publications
+category: published
 category: manuscripts
 permalink: /publication/incels-is-silence-2025
 excerpt: 'A thematic content analysis of the last 706 posts made by the 163 most engaged users on Incels.is from 2017 to 2023.'
