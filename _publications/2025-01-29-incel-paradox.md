@@ -1,7 +1,7 @@
 ---
 title: "Incel paradox: Hating others, while hating themselves?"
 collection: publications
-category: manuscripts
+category: published
 permalink: /publication/incel-paradox-2025
 excerpt: 'An analysis of Incel narratives of blame and shame in discourse surrounding self-directed violence.'
 date: 2025-01-29
