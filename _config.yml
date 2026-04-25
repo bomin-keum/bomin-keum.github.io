@@ -1,3 +1,7 @@
+# Global Site Settings
+url: "https://bomin-keum.github.io"
+baseurl: ""
+
 # Top Left Name and Affiliation
 title: "Bo Min Keum"
 name: "Bo Min Keum"
