@@ -6,15 +6,22 @@ repository: "bomin-keum/bomin-keum.github.io"
 teaser: null
 locale: "en-US"
 
-# Theme Settings
+# Forced White Skin and Sidebar
 minimal_mistakes_skin: "default"
-search: false
 layout: single
 author_profile: true
 
 # Removes the top navigation bar
 masthead:
   enabled: false
+header:
+  overlay_color: "#ffffff"
+  show_overlay_excerpt: false
+
+# tells the theme NOT to use the top-nav data
+navigation:
+  - title: ""
+    url: ""
 
 # Top Left Name and Affiliation
 title: "Bo Min Keum"
