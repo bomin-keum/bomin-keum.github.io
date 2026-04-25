@@ -60,4 +60,4 @@ defaults:
       layout: "single"
       author_profile: true
       sidebar:
-        nav: "main"
+        nav: "main" # Matches the 'main' list in your _data/navigation.yml
