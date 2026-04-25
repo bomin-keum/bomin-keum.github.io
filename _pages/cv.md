@@ -64,6 +64,6 @@ Honours and Awards
 * $499 GSS Professional Development Grant, 2025
 * $1,836 PhD Research Scholarship, 2024
 
-Service and leadership
+Service
 ======
 * Currently signed in to 43 different slack teams
