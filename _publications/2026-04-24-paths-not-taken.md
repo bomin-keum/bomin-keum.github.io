@@ -7,7 +7,7 @@ excerpt: 'Historical archival research of 232 internet snapshots of Incel commun
 date: 2026-04-24
 venue: 'Internet Histories: Digital Technology, Culture and Society'
 paperurl: 'https://doi.org/10.1080/24701475.2026.2663680'
-citation: 'Keum, B. M. (2026). Paths not taken: Early history of Incel communities, 1997-2014. <i>Internet Histories</i>. https://doi.org/10.1080/24701475.2026.2663680'
+citation: 'Keum, B. M. (2026). Paths not taken: Early history of Incel communities, 1997-2014. <i>Internet Histories: Digital Technology, Culture, and Society.</i>. https://doi.org/10.1080/24701475.2026.2663680'
 ---
 
 Historical archival research of 232 Internet Archive and archive.today webpage snapshots of Incel communities, tracing from their origins leading up to the 2014 Isla Vista attack. Informed by a former Incel who lived through this history. 
