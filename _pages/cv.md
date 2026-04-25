@@ -11,41 +11,24 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Ph.D in Criminology, Simon Fraser University, 2024 (ongoing)
+* M.Phil. in Criminological Research, University of Cambridge, 2023
+* B.A. (Hons. Distinction) in Criminology, Simon Fraser University, 2022
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+### Published (First/Co-author)
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+### Under Review
+* **End Justifies Nothing? Nihilism in StormFront.org vs Incels.is**. Keum, B. M., & Frank, R. (forthcoming). In *Digital Codes for Danger*. CRC Press. (Revised & Resubmitted: Feb 15 2026)
+* **Leaving, But Not Gone: r/IncelExit and the Missing “After”**. Keum, B. M., & Frank, R. (forthcoming). In M. Erendor (Ed.), *Digital Codes for Danger*. CRC Press. (Revised & Resubmitted: Feb 15 2026)
+
+### Working Papers
+* **Incels' Path Not Taken—and Why They Matter Now**. (Based on *Internet Histories* research).
+* *Note: Please contact me directly for PDFs of working papers.*
   
 Talks
 ======
