@@ -7,7 +7,6 @@ author:
   name: "Bomin Keum"
   bio: "PhD Student, International Cybercrime Research Institute, SFU"
   location: "Canada"
-  # This section creates the links UNDER your name on the left
   links:
     - label: "About"
       icon: "fas fa-fw fa-user"
