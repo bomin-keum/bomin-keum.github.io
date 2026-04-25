@@ -1,8 +1,15 @@
 # Global Site Settings
 url: "https://bomin-keum.github.io"
 baseurl: ""
+repository: "bomin-keum/bomin-keum.github.io"
+teaser: null
+locale: "en-US"
 
-# Top Left Name and Affiliation
+# Theme Settings
+minimal_mistakes_skin: "default" # background white
+search: false
+
+# Place--top Left Name and Affiliation
 title: "Bo Min Keum"
 name: "Bo Min Keum"
 description: "PhD Student <br> International Cybercrime Research Institute, SFU"
@@ -24,3 +31,13 @@ author:
     - label: "Contact"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:your-email@sfu.ca"
+
+# Make publications appear
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+
+# Removes the top navigation bar, to left hand side
+masthead:
+  enabled: false
