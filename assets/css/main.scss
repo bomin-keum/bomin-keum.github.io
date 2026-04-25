@@ -1,45 +1,10 @@
 ---
 ---
 
-/* Core Theme Imports */
-@import "vendor/breakpoint/breakpoint";
-@import "themes";
-@import "theme/{{ site.site_theme | default: 'default' | append: '_light' }}";
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
 
-/* To keep it white, we leave the dark theme import out entirely */
-
-@import "include/mixins";
-@import "vendor/susy/susy";
-
-@import "layout/reset";
-@import "layout/base";
-@import "include/utilities";
-@import "layout/tables";
-@import "layout/buttons";
-@import "layout/notices";
-@import "layout/masthead";
-@import "layout/navigation";
-@import "layout/footer";
-@import "syntax";
-@import "layout/forms";
-@import "layout/page";
-@import "layout/archive";
-@import "layout/sidebar";
-@import "layout/json_cv";
-
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
-
-/* The CSS Hammer - Manually hiding elements to match the Schulz style */
+/* This will hide the top bar correctly in the new theme */
 .masthead {
   display: none !important;
-}
-
-.initial-content {
-  width: 100% !important;
-}
-
-#main {
-  background-color: white !important;
 }
