@@ -15,12 +15,17 @@ Hi! I am a PhD student at the International CyberCrime Research Institute in Sim
 # Research
 
 ### Published
-<ul>{% for post in site.publications reversed %}{% if post.category == 'manuscripts' %}
+<ul>{% for post in site.publications reversed %}{% if post.category == 'published' %}
   {% include archive-single-cv.html %}
 {% endif %}{% endfor %}</ul>
 
 ### Under Review
 <ul>{% for post in site.publications reversed %}{% if post.category == 'under_review' %}
+  {% include archive-single-cv.html %}
+{% endif %}{% endfor %}</ul>
+
+### Working Papers
+<ul>{% for post in site.publications reversed %}{% if post.category == 'working_paper' %}
   {% include archive-single-cv.html %}
 {% endif %}{% endfor %}</ul>
 
