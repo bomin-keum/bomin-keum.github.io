@@ -11,25 +11,29 @@
 
 /* 2. Force the sidebar to be a clean left column with a vertical line */
 .sidebar {
-  border-right: 1px solid #eee !important;
-  padding-right: 20px;
-  margin-right: 20px;
+  border-right: 1px solid #eeeeee !important;
+  padding-right: 2em !important;
   z-index: 10;
 }
 
-/* 3. Style the Sidebar Links to look like Will's black buttons */
+/* 3. Push the main content to the right so it doesn't overlap the sidebar */
+.initial-content, .page {
+  margin-left: 300px !important; /* Adjust this number if the gap is too big/small */
+}
+
+/* 4. Style the Sidebar Links (The Will Schulz Black Box) */
 .nav__list {
   background: transparent !important;
 }
 
 .nav__items a {
   display: block;
-  padding: 10px 15px;
+  padding: 0.5rem 1rem;
   color: #333 !important;
   font-weight: 500;
   text-decoration: none;
-  border-radius: 6px;
-  margin-bottom: 5px;
+  border-radius: 8px;
+  margin-bottom: 4px;
 }
 
 .nav__items a:hover {
@@ -37,17 +41,7 @@
   color: #fff !important;
 }
 
-/* 4. Fix the overlapping text - push content to the right */
-.page__content, .archive {
-  padding-left: 20px;
-}
-
-/* 5. Ensure name/bio wrap correctly */
-.author__bio {
-  display: block;
-  margin-top: 5px;
-}
-
+/* 5. Smooth scrolling for the links */
 html {
   scroll-behavior: smooth;
 }
