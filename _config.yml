@@ -1,12 +1,23 @@
+# Top Left Name and Affiliation
 title: "Bo Min Keum"
 name: "Bo Min Keum"
-description: "PhD Student in Criminology"
-url: "https://bomin-keum.github.io" 
+description: "PhD Student <br> International Cybercrime Research Institute, SFU"
+
 author:
   name: "Bomin Keum"
-  bio: "Hi! I am a PhD student at the International CyberCrime Research Institute in Simon Fraser University, examining online radicalization and violent extremism. My research so far examined radicalization patterns. Now, I evaluate what works to disrupt these patterns. I do so by engaging in computational methods for distinguishing “Violent” and “Non-Violent” user patterns, conducting a Campbell Systematic Review of radicalization prevention programs, and interviewing formers."
+  bio: "PhD Student, International Cybercrime Research Institute, SFU"
   location: "Canada"
+  # This section creates the links UNDER your name on the left
   links:
-    - label: "Email"
+    - label: "About"
+      icon: "fas fa-fw fa-user"
+      url: "/#about"
+    - label: "Research"
+      icon: "fas fa-fw fa-book"
+      url: "/#research"
+    - label: "CV"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/#cv"
+    - label: "Contact"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:your-email@sfu.ca"
