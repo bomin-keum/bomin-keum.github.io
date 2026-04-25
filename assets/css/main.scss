@@ -4,44 +4,57 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* 1. Hide the top masthead and the 'Follow' button */
+/* 1. Hide the top masthead and Follow button */
 .masthead, .author__follow-button {
   display: none !important;
 }
 
-/* 2. Force the sidebar to be a clean left column with a vertical line */
+/* 2. Fix the "Shifted Downward" issue */
+.initial-content {
+  margin-top: -3em !important; /* Pulls content up to the top */
+}
+
+/* 3. The Sidebar Column & Vertical Line */
 .sidebar {
   border-right: 1px solid #eeeeee !important;
   padding-right: 2em !important;
-  z-index: 10;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2em;
 }
 
-/* 3. Push the main content to the right so it doesn't overlap the sidebar */
-.initial-content, .page {
-  margin-left: 300px !important; /* Adjust this number if the gap is too big/small */
-}
-
-/* 4. Style the Sidebar Links (The Will Schulz Black Box) */
+/* 4. Turn blue links into Will Schulz style buttons */
 .nav__list {
   background: transparent !important;
+}
+
+.nav__items {
+  margin-top: 1.5em;
 }
 
 .nav__items a {
   display: block;
   padding: 0.5rem 1rem;
-  color: #333 !important;
+  color: #333 !important; /* Kills the blue */
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
   font-weight: 500;
+  text-transform: none; /* Removes all-caps if present */
   text-decoration: none;
   border-radius: 8px;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 }
 
-.nav__items a:hover {
+/* Active/Hover State - Black Box */
+.nav__items a:hover, .nav__items a.active {
   background-color: #000 !important;
   color: #fff !important;
 }
 
-/* 5. Smooth scrolling for the links */
+/* 5. Push content right to stop overlapping */
+.page__content, .archive {
+  margin-left: 20px !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
