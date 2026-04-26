@@ -4,40 +4,35 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* 1. Hide Sidebar and Follow Button */
-.sidebar, .author__follow-button {
-  display: none !important;
+/* 1. Make Header Sticky */
+.masthead {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+  border-bottom: 1px solid #f2f2f2;
 }
 
-/* 2. Style the Header Title and Subtitle */
+/* 2. Style Title + Affiliation */
 .masthead__menu-item--lg {
   font-weight: 800 !important;
-  font-size: 1.5rem !important; /* Made slightly bigger */
-  color: #000 !important;
+  font-size: 1.4rem !important;
   display: inline-flex;
   align-items: baseline;
 }
 
-/* Force the Subtitle to stay on the same line with contrast */
 .masthead__menu-item--lg:after {
-  content: "ICCRI, SFU";
-  font-weight: 400 !important;
-  font-size: 0.9rem !important; /* Smaller contrast */
-  color: #777 !important;
-  margin-left: 12px;
-  text-transform: none !important;
+  content: "  ICCRI, SFU";
+  font-weight: 400;
+  font-size: 0.85rem;
+  color: #666;
+  margin-left: 10px;
 }
 
-/* 3. Navigation Styling (Capitalized & Professional) */
+/* 3. Navigation Styling */
 .masthead__menu-item a {
   text-transform: uppercase !important;
   font-weight: 700 !important;
-  font-size: 0.85rem !important;
-  letter-spacing: 0.5px;
-}
-
-/* 4. Center Content Alignment */
-.masthead__inner, .page {
-  max-width: 1000px !important;
-  margin: 0 auto !important;
+  letter-spacing: 1px;
 }
