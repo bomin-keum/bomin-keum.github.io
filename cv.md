@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "CV"
-permalink: /cv/
+permalink: /cv.html
 author_profile: true
 ---
 
