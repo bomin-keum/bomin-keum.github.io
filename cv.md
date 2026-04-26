@@ -1,10 +1,8 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}
@@ -17,11 +15,10 @@ Education
 
 Publications
 ======
-### Published (First/Co-author)
 <ul>
 {% for post in site.publications reversed %}
   {% if post.category == 'published' %}
-    {% include archive-single-cv.html %}
+    <li>{{ post.citation | markdownify }}</li>
   {% endif %}
 {% endfor %}
 </ul>
@@ -30,7 +27,7 @@ Publications
 <ul>
 {% for post in site.publications reversed %}
   {% if post.category == 'under_review' %}
-    {% include archive-single-cv.html %}
+    <li>{{ post.citation | markdownify }}</li>
   {% endif %}
 {% endfor %}
 </ul>
