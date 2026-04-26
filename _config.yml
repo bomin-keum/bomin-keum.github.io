@@ -1,11 +1,11 @@
-# 1. Global Site Settings (The "Infrastructure")
+# Site Settings
 url: "https://bomin-keum.github.io"
 baseurl: ""
 repository: "bomin-keum/bomin-keum.github.io"
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 
-# 2. Top Navigation (The "Top Row" links)
+# Top Navigation Row (The "Subheadings")
 masthead_links:
   - title: "About"
     url: "#about"
@@ -16,22 +16,19 @@ masthead_links:
   - title: "Contact"
     url: "#contact"
 
-# 3. Sidebar & Profile (Your personal info)
+# Sidebar Profile
 author:
   name: "Bomin Keum"
-  bio: "PhD Student <br> ICCRI, SFU"
+  bio: "PhD Student<br>International Cybercrime Research Institute, SFU"
+  follow_button: false
 
-# 4. Theme Settings
-search: false
-words_per_minute: 200
-
-# 5. Collections (Ensures your research papers show up)
+# Collections
 collections:
   publications:
     output: true
     permalink: /:collection/:path/
 
-# 6. Defaults (Tells every page to show your sidebar)
+# Defaults
 defaults:
   - scope:
       path: ""
