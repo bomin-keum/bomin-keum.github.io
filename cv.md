@@ -12,43 +12,41 @@ Education
 
 Publications
 ======
-<ul>
 {% for post in site.publications reversed %}
-  {% if post.category == 'published' %}
-    <li>{{ post.citation | markdownify }}</li>
+  {% if post.category == "published" %}
+* {{ post.citation }}
   {% endif %}
 {% endfor %}
-</ul>
 
 ### Under Review
-<ul>
 {% for post in site.publications reversed %}
-  {% if post.category == 'under_review' %}
-    <li>{{ post.citation | markdownify }}</li>
+  {% if post.category == "under_review" %}
+* {{ post.citation }}
   {% endif %}
 {% endfor %}
-</ul>
 
 ### Working Papers
-<ul>
 {% for post in site.publications reversed %}
-  {% if post.category == 'working_paper' %}
-    {% include archive-single-cv.html %}
+  {% if post.category == "working_paper" %}
+* {{ post.citation }}
   {% endif %}
 {% endfor %}
-</ul>
   
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+{% for post in site.talks reversed %}
+  {% if post.category == "talks" %}
+* {{ post.citation }}
+  {% endif %}
+{% endfor %}
   
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+{% for post in site.teaching reversed %}
+  {% if post.category == "teaching" %}
+* {{ post.citation }}
+  {% endif %}
+{% endfor %}
 
 Grants
 ======
