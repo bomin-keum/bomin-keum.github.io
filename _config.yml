@@ -11,7 +11,7 @@ masthead_links:
   - title: "Research"
     url: "/#research"
   - title: "CV"
-    url: "/cv/" # Keep this simple
+    url: "/cv" # Keep this simple
   - title: "Contact"
     url: "/#contact"
 
