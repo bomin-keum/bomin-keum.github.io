@@ -10,11 +10,13 @@ permalink: /cv/
     width="100%" 
     height="1000px" 
     style="border: 1px solid #ddd; border-radius: 4px;">
+    This browser does not support PDFs. Please download the PDF to view it: 
+    <a href="/assets/Bomin_Keum_CV.pdf">Download PDF</a>
   </iframe>
 </div>
 
 <div style="margin-top: 20px; text-align: center;">
   <a href="/assets/Bomin_Keum_CV.pdf" class="btn btn--info btn--large">
-    Download Full CV (PDF)
+    <i class="fas fa-download"></i> Download Full CV (PDF)
   </a>
 </div>
