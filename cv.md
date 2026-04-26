@@ -8,7 +8,7 @@ classes: wide
 
 <div class="cv-embed-container">
   <iframe 
-    src="/assets/Bomin_Keum_CV.pdf" 
+    src="/assets/Bomin_Keum_CV.pdf#toolbar=0&navpanes=0"
     width="100%" 
     height="1000px" 
     style="border: 1px solid #ddd; border-radius: 4px;">
