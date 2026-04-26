@@ -4,34 +4,33 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* 1. Style the Top Navigation Bar */
-.masthead {
-  border-bottom: 1px solid #f2f2f2;
-}
-
-.masthead__menu-item a {
-  color: #666 !important; /* Professional grey */
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.masthead__menu-item a:hover {
+/* 1. Make your name stand out (The 'Small Name' fix) */
+.author__name {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
   color: #000 !important;
-  text-decoration: underline;
 }
 
-/* 2. Style the Sidebar */
-.sidebar {
-  border-right: 1px solid #f2f2f2;
-  padding-right: 1rem;
+/* 2. Style the top navigation (The 'Subheadings') */
+.masthead__menu-item a {
+  color: #444 !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
 }
 
-/* 3. Hide the Follow Button for a cleaner academic look */
+/* 3. Hide the Follow button for a cleaner profile */
 .author__follow-button {
   display: none !important;
 }
 
-/* 4. Smooth Scrolling */
+/* 4. Fix the gap at the top */
+.initial-content {
+  margin-top: 1em !important;
+}
+
+/* 5. Flowing Navigation */
 html {
   scroll-behavior: smooth;
 }
