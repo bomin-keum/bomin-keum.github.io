@@ -1,10 +1,8 @@
-# Site Settings
-title: "Bomin Keum"
+title: "Bo Min Keum"
 url: "https://bomin-keum.github.io"
-baseurl: ""
 remote_theme: "mmistakes/minimal-mistakes"
 
-# Top Navigation
+# Top Navigation (These will appear next to your name)
 masthead_links:
   - title: "About"
     url: "#about"
@@ -15,16 +13,10 @@ masthead_links:
   - title: "Contact"
     url: "#contact"
 
-# Sidebar
-author:
-  name: "Bo Min Keum"
-  bio: "PhD Student<br>International Cybercrime Research Institute, SFU"
-  follow_button: false
-
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
       layout: "single"
-      author_profile: true
+      author_profile: false # We are hiding the sidebar for a cleaner top-nav look
