@@ -2,7 +2,6 @@
 title: "What do Incels.is users post before going silent? A thematic content analysis"
 collection: publications
 category: published
-category: manuscripts
 permalink: /publication/incels-is-silence-2025
 date: 2025-05-21
 venue: 'VOX-Pol'
