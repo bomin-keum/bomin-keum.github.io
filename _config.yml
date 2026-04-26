@@ -1,9 +1,9 @@
 title: "Bo Min Keum"
-subtitle: "ICCRI, SFU" # We will use CSS to display this next to your name
+subtitle: "ICCRI, SFU" # use CSS to display this next to name
 url: "https://bomin-keum.github.io"
 remote_theme: "mmistakes/minimal-mistakes"
 
-# Top Navigation (These will appear next to your name)
+# Top Navigation (These will appear next to name)
 masthead_links:
   - title: "About"
     url: "#about"
