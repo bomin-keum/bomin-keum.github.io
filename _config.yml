@@ -51,7 +51,6 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-#force theme
 defaults:
   - scope:
       path: ""
