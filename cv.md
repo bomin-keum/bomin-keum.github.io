@@ -1,11 +1,8 @@
 ---
 layout: single
 title: "CV"
-permalink: /cv.html
-author_profile: true
+permalink: /cv/
 ---
-
-{% include base_path %}
 
 Education
 ======
