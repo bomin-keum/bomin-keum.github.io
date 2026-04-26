@@ -1,18 +1,28 @@
 title: "Bo Min Keum"
-subtitle: "ICCRI, SFU" # use CSS to display this next to name
+subtitle: "ICCRI, SFU"
 url: "https://bomin-keum.github.io"
+baseurl: "" # Keep this explicitly empty
 remote_theme: "mmistakes/minimal-mistakes"
 
-# Top Navigation (These will appear next to name)
+# Top Navigation
 masthead_links:
   - title: "About"
-    url: "#about"
+    url: "/#about"
   - title: "Research"
-    url: "#research"
+    url: "/#research"
   - title: "CV"
-    url: /cv.html
+    url: "/cv/"
   - title: "Contact"
-    url: "#contact"
+    url: "/#contact"
+
+# Force Jekyll to include the CV file
+include:
+  - cv.md
+
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   - scope:
@@ -20,9 +30,4 @@ defaults:
       type: "pages"
     values:
       layout: "single"
-      author_profile: false # hiding the sidebar for a cleaner top-nav look
-
-collections:
-  publications:
-    output: true
-    permalink: /:collection/:path/
+      author_profile: false
