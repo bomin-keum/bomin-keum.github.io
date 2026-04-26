@@ -20,8 +20,6 @@ masthead_links:
 author:
   name: "Bomin Keum"
   bio: "PhD Student <br> ICCRI, SFU"
-  location: "Canada"
-  follow_button: false # Standard for academic sites to keep it clean
 
 # 4. Theme Settings
 search: false
