@@ -14,23 +14,23 @@ Hi! I am a PhD student at the International CyberCrime Research Institute in Sim
 {: #research}
 
 ### Published
-{% for post in site.publications reversed %}
-  {% if post.category == 'published' %}
-* {{ post.citation | markdownify }}
+{% for post in site.publications %}
+  {% if post.category == "published" %}
+* {{ post.citation }}
   {% endif %}
 {% endfor %}
 
 ### Under Review
-{% for post in site.publications reversed %}
-  {% if post.category == 'under_review' %}
-* {{ post.citation | markdownify }}
+{% for post in site.publications %}
+  {% if post.category == "under_review" %}
+* {{ post.citation }}
   {% endif %}
 {% endfor %}
 
 ### Working Papers
-{% for post in site.publications reversed %}
-  {% if post.category == 'working_paper' %}
-* {{ post.citation | markdownify }}
+{% for post in site.publications %}
+  {% if post.category == "working_paper" %}
+* {{ post.citation }}
   {% endif %}
 {% endfor %}
 
