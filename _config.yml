@@ -1,11 +1,10 @@
 # Site Settings
+title: "Bomin Keum"
 url: "https://bomin-keum.github.io"
 baseurl: ""
-repository: "bomin-keum/bomin-keum.github.io"
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default"
 
-# Top Navigation Row (The "Subheadings")
+# Top Navigation
 masthead_links:
   - title: "About"
     url: "#about"
@@ -16,19 +15,12 @@ masthead_links:
   - title: "Contact"
     url: "#contact"
 
-# Sidebar Profile
+# Sidebar
 author:
-  name: "Bomin Keum"
+  name: "Bo Min Keum"
   bio: "PhD Student<br>International Cybercrime Research Institute, SFU"
   follow_button: false
 
-# Collections
-collections:
-  publications:
-    output: true
-    permalink: /:collection/:path/
-
-# Defaults
 defaults:
   - scope:
       path: ""
