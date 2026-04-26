@@ -18,19 +18,31 @@ Education
 Publications
 ======
 ### Published (First/Co-author)
-<ul>{% for post in site.publications reversed %}{% if post.category == 'manuscripts' %}
-  {% include archive-single-cv.html %}
-{% endif %}{% endfor %}</ul>
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.category == 'published' %}
+    {% include archive-single-cv.html %}
+  {% endif %}
+{% endfor %}
+</ul>
 
 ### Under Review
-<ul>{% for post in site.publications reversed %}{% if post.category == 'under_review' %}
-  {% include archive-single-cv.html %}
-{% endif %}{% endfor %}</ul>
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.category == 'under_review' %}
+    {% include archive-single-cv.html %}
+  {% endif %}
+{% endfor %}
+</ul>
 
 ### Working Papers
-<ul>{% for post in site.publications reversed %}{% if post.category == 'working_paper' %}
-  {% include archive-single-cv.html %}
-{% endif %}{% endfor %}</ul>
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.category == 'working_paper' %}
+    {% include archive-single-cv.html %}
+  {% endif %}
+{% endfor %}
+</ul>
   
 Talks
 ======
@@ -56,14 +68,18 @@ Grants
 Honours and Awards
 ======
 * $6,500 Criminology Graduate Fellowship, 2026
-* $5,000 Travel & Research Award, 2026 *spent: Behavioural and Social Science Conference presentation at Cardiff University (Cardiff, UK)
-* $2,239 Travel & Research Award, 2025 *spent: VOX-Pol Next-Gen Conference at Charles University (Prague, Czech Republic)
+* $5,000 Travel & Research Award, 2026 *fund: Behavioural and Social Science Conference presentation at Cardiff University (Cardiff, UK)
+* $2,239 Travel & Research Award, 2025 *fund: VOX-Pol Next-Gen Conference at Charles University (Prague, Czech Republic)
 * $6,058 PhD Research Scholarship, 2025
 * $3,500 Criminology Graduate Fellowship, 2025
-* $2,650 Travel & Research Award, 2025 *spent: C-REX & VOX-Pol Extremism Research Workshop at University of Oslo (Oslo, Norway)
+* $2,650 Travel & Research Award, 2025 *fund: C-REX & VOX-Pol Extremism Research Workshop at University of Oslo (Oslo, Norway)
 * $499 GSS Professional Development Grant, 2025
 * $1,836 PhD Research Scholarship, 2024
 
 Service
 ======
-* Currently signed in to 43 different slack teams
+* Cambridge BroBono Project, organizer, “Meeting at the Crossroads: Aligning Global Agendas to End Exploitation”, 2024
+* Cambridge, co-organizer, "Misinformation Hackathon with CRASSH" (a UK-based policy think tank), 2024
+* Cambridge, organizer and MOC, "Decolonizing Criminology Classrooms: How Do We Move Beyond Rhetoric?" 2024
+
+[Download Full CV (PDF)](/assets/Bomin_Keum_CV.pdf){: .btn .btn--info}
