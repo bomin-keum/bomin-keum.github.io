@@ -1,56 +1,39 @@
-# Global Site Settings
+# 1. Global Site Settings (The "Infrastructure")
 url: "https://bomin-keum.github.io"
 baseurl: ""
 repository: "bomin-keum/bomin-keum.github.io"
-remote_theme: "mmistakes/minimal-mistakes" # THIS IS THE KEY CHANGE
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 
-# Theme Settings
-search: false
-layout: single
-author_profile: true
+# 2. Top Navigation (The "Top Row" links)
+masthead_links:
+  - title: "About"
+    url: "#about"
+  - title: "Research"
+    url: "#research"
+  - title: "CV"
+    url: "#cv"
+  - title: "Contact"
+    url: "#contact"
 
-# Removes the top navigation bar
-masthead:
-  enabled: false
-header:
-  overlay_color: "#ffffff"
-  show_overlay_excerpt: false
-
-# tells the theme NOT to use the top-nav data
-navigation:
-  - title: ""
-    url: ""
-
-# Top Left Name and Affiliation
-title: "Bo Min Keum"
-name: "Bo Min Keum"
-description: "PhD Student <br> International Cybercrime Research Institute, SFU"
-
+# 3. Sidebar & Profile (Your personal info)
 author:
   name: "Bomin Keum"
-  bio: "PhD Student<br>ICCRI, SFU"
-  follow_button: false
-  links:
-    - label: "About"
-      icon: "fas fa-fw fa-user"
-      url: "/#about"
-    - label: "Research"
-      icon: "fas fa-fw fa-book"
-      url: "/#research"
-    - label: "CV"
-      icon: "fas fa-fw fa-file-pdf"
-      url: "/#cv"
-    - label: "Contact"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:your-email@sfu.ca"
+  bio: "PhD Student <br> ICCRI, SFU"
+  location: "Canada"
+  follow_button: false # Standard for academic sites to keep it clean
 
-# Make publications appear
+# 4. Theme Settings
+search: false
+words_per_minute: 200
+
+# 5. Collections (Ensures your research papers show up)
 collections:
   publications:
     output: true
     permalink: /:collection/:path/
 
+# 6. Defaults (Tells every page to show your sidebar)
 defaults:
   - scope:
       path: ""
@@ -58,5 +41,3 @@ defaults:
     values:
       layout: "single"
       author_profile: true
-      sidebar:
-        nav: "main" # Matches the 'main' list in your _data/navigation.yml
