@@ -4,13 +4,13 @@ author_profile: true
 ---
 
 <section id="about" markdown="1">
-# About {: #about}
+# About 
 Hi! I am a PhD student at the International CyberCrime Research Institute in Simon Fraser University. So far, my research focused on online radicalization patterns. Now, I evaluate what works to disrupt these patterns. I do so by engaging in computational methods for distinguishing “Violent” and “Non-Violent” user patterns, conducting a Campbell Systematic Review of radicalization prevention programs, and interviewing formers.
 </section>
 ---
 
 <section id="research" markdown="1">
-# Research {: #research}
+# Research 
 
 ### Published
 <ul>
@@ -42,7 +42,7 @@ Hi! I am a PhD student at the International CyberCrime Research Institute in Sim
 ---
 
 <section id="cv" markdown="1">
-# CV {: #CV}
+# CV
 
 <div style="margin-top: 20px;">
   <iframe src="/assets/Bomin_Keum_CV.pdf" width="100%" height="1000px" style="border: none;">
@@ -55,6 +55,6 @@ Hi! I am a PhD student at the International CyberCrime Research Institute in Sim
 ---
 
 <section id="contact" markdown="1">
-# Contact {: #contact}
+# Contact 
 **Email:** [bkeum@sfu.ca](mailto:bkeum@sfu.ca)
 </section>
