@@ -21,3 +21,8 @@ defaults:
     values:
       layout: "single"
       author_profile: false # We are hiding the sidebar for a cleaner top-nav look
+
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
