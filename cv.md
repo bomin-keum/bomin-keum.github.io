@@ -24,3 +24,5 @@ permalink: /cv/
   <li>{{ post.citation | markdownify }}</li>
 {% endfor %}
 </ul>
+
+<a href="javascript:window.print()" class="btn btn--info">Print / Save CV as PDF</a>
