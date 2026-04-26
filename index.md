@@ -3,14 +3,14 @@ layout: single
 author_profile: true
 ---
 
-<a name="about"></a>
+<span id="about"></span>
 # About
 
 Hi! I am a PhD student at the International CyberCrime Research Institute in Simon Fraser University. So far, my research focused on online radicalization patterns. Now, I evaluate what works to disrupt these patterns. I do so by engaging in computational methods for distinguishing “Violent” and “Non-Violent” user patterns, conducting a Campbell Systematic Review of radicalization prevention programs, and interviewing formers.
 
 ---
 
-<a name="research"></a>
+<span id="research"></span>
 # Research
 
 ### Published
@@ -42,7 +42,7 @@ Hi! I am a PhD student at the International CyberCrime Research Institute in Sim
 
 ---
 
-<a name="cv"></a>
+<span id="cv"></span>
 # CV
 
 <div style="margin-top: 20px;">
@@ -54,7 +54,6 @@ Hi! I am a PhD student at the International CyberCrime Research Institute in Sim
 
 ---
 
-<a name="contact"></a>
+<span id="contact"></span>
 # Contact
 **Email:** [bkeum@sfu.ca](mailto:bkeum@sfu.ca)
-**Affiliation:** International Cybercrime Research Institute, SFU
