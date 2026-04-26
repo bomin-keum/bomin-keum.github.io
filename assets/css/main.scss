@@ -4,12 +4,12 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* 1. Hide Sidebar & Follow Button */
+/* 1. Remove Sidebar & Follow Button */
 .sidebar, .author__follow-button {
   display: none !important;
 }
 
-/* 2. Style the Sticky Header */
+/* 2. Sticky Header Setup */
 .masthead {
   position: sticky !important;
   top: 0;
@@ -19,46 +19,42 @@
 }
 
 .masthead__inner {
-  max-width: 1000px !important; /* Aligned with main text */
+  max-width: 1000px !important; 
   margin: 0 auto !important;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-/* 3. Name and Affiliation (The Title) */
+/* 3. The Name + Affiliation Look */
 .masthead__menu-item--lg {
   font-weight: 800 !important;
-  font-size: 1.3rem !important;
-  color: #000 !important;
+  font-size: 1.2rem !important;
 }
 
-.masthead__menu-item--lg::after {
-  content: " ICCRI, SFU";
+/* Adding the subtitle via CSS for a cohesive look */
+.masthead__menu-item--lg:after {
+  content: "  {{ site.subtitle }}";
   font-weight: 400 !important;
-  font-size: 0.85rem !important;
-  color: #666 !important;
-  margin-left: 8px;
+  font-size: 0.8rem;
+  color: #777;
 }
 
-/* 4. Restore Navigation Style (Capitalized & Clean) */
+/* 4. Bold, Capitalized Navigation */
 .masthead__menu-item a {
   text-transform: uppercase !important;
   font-weight: 700 !important;
-  font-size: 0.8rem !important;
-  letter-spacing: 1px !important;
+  font-size: 0.85rem !important;
+  letter-spacing: 0.5px;
   color: #333 !important;
-  padding: 0.5rem 0.75rem !important;
 }
 
 .masthead__menu-item a:hover {
+  border-bottom: 2px solid #000;
   color: #000 !important;
-  text-decoration: underline;
 }
 
-/* 5. Main Content Spacing */
+/* 5. Content Alignment */
 .page {
   max-width: 1000px !important;
   margin: 0 auto !important;
-  padding-top: 2rem;
+  padding-left: 15px;
+  padding-right: 15px;
 }
