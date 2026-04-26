@@ -7,13 +7,13 @@ remote_theme: "mmistakes/minimal-mistakes"
 # Top Navigation
 masthead_links:
   - title: "About"
-    url: "https://bomin-keum.github.io/#about"
+    url: "/#about"
   - title: "Research"
-    url: "https://bomin-keum.github.io/#research"
+    url: "/#research"
   - title: "CV"
-    url: "https://bomin-keum.github.io/cv/"
+    url: "/cv/" # Keep this simple
   - title: "Contact"
-    url: "https://bomin-keum.github.io/#contact"
+    url: "/#contact"
 
 # Force Jekyll to include the CV file
 include:
