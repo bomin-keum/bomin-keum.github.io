@@ -16,8 +16,7 @@ masthead_links:
     url: "/#contact"
 
 # Force Jekyll to include the CV file
-include:
-  - cv.md
+include: [assets]
 
 collections:
   publications:
