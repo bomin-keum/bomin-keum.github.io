@@ -15,49 +15,46 @@
 <meta name="theme-color" content="#ffffff"/>
 
 <style>
-  /* 1. This centers the content and gives it a healthy max width */
+  /* 1. Center the entire page container */
   #main {
-    max-width: 1280px !important; /* Standard centered width */
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding-left: 1em !important;
-    padding-right: 1em !important;
+    display: flex !important;
+    justify-content: center !important; /* This is the 'Center' command */
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 5% !important; /* Gives breathing room on both sides */
   }
 
-  /* 2. On full-screen/large monitors, expand it further */
-  @media (min-width: 80em) {
-    #main {
-      max-width: 1600px !important; 
-    }
-  }
-
-  /* 3. Force the internal containers to fill that #main space */
-  .archive, .page, .page__content, .page__inner-wrap {
+  /* 2. Make the inner wrapper take up the available space */
+  .inner {
     width: 100% !important;
+    max-width: 1400px !important; /* Limits how far it spreads on huge screens */
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+  }
+
+  /* 3. Ensure the content area fills the right side properly */
+  .archive, .page, .page__content {
+    flex-grow: 1 !important;
+    width: auto !important;
     max-width: 100% !important;
   }
 
-  /* 4. Fix the alignment so it starts exactly where 'Bo Min Keum' starts */
+  /* 4. Keep your name and navigation bar centered/aligned as well */
   .masthead__inner {
-    max-width: 1280px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-  
-  @media (min-width: 80em) {
-    .masthead__inner {
-      max-width: 1600px !important;
-    }
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+    padding: 0 5% !important;
   }
 
-  /* 5. Mobile Fix: prevent overlap and add breathing room */
+  /* 5. Mobile/Small Screen: Stack things vertically and hide sidebar overlap */
   @media (max-width: 64em) {
+    #main {
+      flex-direction: column !important;
+      padding: 0 20px !important;
+    }
     .sidebar {
       display: none !important;
-    }
-    #main {
-      padding-left: 20px !important;
-      padding-right: 20px !important;
     }
   }
 </style>
