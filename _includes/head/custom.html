@@ -14,47 +14,31 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+
 <style>
-  /* 1. Center the entire page container */
+  /* 1. Align main content perfectly with the navigation bar edges */
   #main {
-    display: flex !important;
-    justify-content: center !important; /* This is the 'Center' command */
-    max-width: 100% !important;
+    max-width: 1280px !important; /* Matches standard Minimal Mistakes nav width */
     margin: 0 auto !important;
-    padding: 0 5% !important; /* Gives breathing room on both sides */
+    padding: 0 !important;
   }
 
-  /* 2. Make the inner wrapper take up the available space */
-  .inner {
-    width: 100% !important;
-    max-width: 1400px !important; /* Limits how far it spreads on huge screens */
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: flex-start !important;
-  }
-
-  /* 3. Ensure the content area fills the right side properly */
   .archive, .page, .page__content {
-    flex-grow: 1 !important;
-    width: auto !important;
-    max-width: 100% !important;
+    width: 100% !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
   }
 
-  /* 4. Keep your name and navigation bar centered/aligned as well */
-  .masthead__inner {
-    max-width: 1400px !important;
-    margin: 0 auto !important;
-    padding: 0 5% !important;
+  /* 2. Fix the PDF Embed to hide the 'Page Thumbnails' sidebar */
+  /* Adding #toolbar=0&navpanes=0 to the URL is the trick! */
+  .cv-embed-container iframe {
+    width: 100% !important;
+    height: 1100px;
+    border: none;
   }
 
-  /* 5. Mobile/Small Screen: Stack things vertically and hide sidebar overlap */
-  @media (max-width: 64em) {
-    #main {
-      flex-direction: column !important;
-      padding: 0 20px !important;
-    }
-    .sidebar {
-      display: none !important;
-    }
+  /* 3. Ensure the Sidebar (Bio) doesn't push content left */
+  .sidebar {
+    margin-right: 2em !important;
   }
 </style>
