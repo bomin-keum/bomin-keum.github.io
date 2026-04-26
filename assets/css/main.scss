@@ -4,7 +4,6 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* 1. Make Header Sticky */
 .masthead {
   position: -webkit-sticky !important;
   position: sticky !important;
@@ -14,25 +13,22 @@
   border-bottom: 1px solid #f2f2f2;
 }
 
-/* 2. Style Title + Affiliation */
 .masthead__menu-item--lg {
   font-weight: 800 !important;
-  font-size: 1.4rem !important;
+  font-size: 1.5rem !important;
   display: inline-flex;
   align-items: baseline;
 }
 
 .masthead__menu-item--lg:after {
-  content: "  ICCRI, SFU";
+  content: " ICCRI, SFU";
   font-weight: 400;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: #666;
   margin-left: 10px;
 }
 
-/* 3. Navigation Styling */
 .masthead__menu-item a {
   text-transform: uppercase !important;
   font-weight: 700 !important;
-  letter-spacing: 1px;
 }
