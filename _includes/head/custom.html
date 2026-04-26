@@ -15,38 +15,36 @@
 <meta name="theme-color" content="#ffffff"/>
 
 <style>
-  /* 1. Expand the main container and align with the logo/name at the top */
+  /* 1. Make the main wrapper match the header's container exactly */
   #main {
-    max-width: 95% !important;
-    margin-left: 4% !important; /* Adjust this % to align perfectly with your 'Bo Min Keum' text */
-    margin-right: 5% !important;
+    max-width: 100% !important;
     padding: 0 !important;
+    margin: 0 !important;
   }
 
-  /* 2. Force the content to fill the remaining space on the right */
-  .archive, .page {
+  /* 2. Target the inner content and align it with the Masthead (Header) */
+  .archive, .page, .page__content {
     width: 100% !important;
     max-width: 100% !important;
-    padding-right: 0 !important;
   }
 
-  /* 3. Fix the "Follow" button (Sidebar) */
-  /* This hides the "Follow" button when the screen is small so it doesn't overlap your 'About' section */
+  /* 3. This is the 'Secret Sauce': 
+     We use the theme's own padding logic to align with the name 'Bo Min Keum' */
+  .inner {
+    max-width: 95% !important; /* Matches the width we want */
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* 4. Fix the Sidebar/Follow overlap on mobile */
   @media (max-width: 64em) {
     .sidebar {
       display: none !important;
     }
   }
 
-  /* 4. Ensure the content doesn't hit a 'invisible wall' on the right */
-  .page__content {
-    float: none !important;
+  /* 5. Force the content to extend to the right edge */
+  .page__inner-wrap {
     width: 100% !important;
-    padding-right: 5% !important; /* Keeps it from touching the absolute edge of the screen */
-  }
-
-  /* 5. Align the page title (About, Research, etc.) with the sidebar/header */
-  .page__title {
-    margin-top: 0 !important;
   }
 </style>
