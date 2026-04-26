@@ -1,4 +1,5 @@
 title: "Bo Min Keum"
+subtitle: "ICCRI, SFU" # We will use CSS to display this next to your name
 url: "https://bomin-keum.github.io"
 remote_theme: "mmistakes/minimal-mistakes"
 
