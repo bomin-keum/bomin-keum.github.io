@@ -14,24 +14,21 @@ Hi! I am a PhD student at the International CyberCrime Research Institute in Sim
 {: #research}
 
 ### Published
-{% for post in site.publications %}
-  {% if post.category == "published" %}
-* {{ post.citation }}
-  {% endif %}
+{% assign published = site.publications | where: "category", "published" %}
+{% for post in published reversed %}
+* {{ post.citation | markdownify }}
 {% endfor %}
 
 ### Under Review
-{% for post in site.publications %}
-  {% if post.category == "under_review" %}
-* {{ post.citation }}
-  {% endif %}
+{% assign reviews = site.publications | where: "category", "under_review" %}
+{% for post in reviews reversed %}
+* {{ post.citation | markdownify }}
 {% endfor %}
 
 ### Working Papers
-{% for post in site.publications %}
-  {% if post.category == "working_paper" %}
-* {{ post.citation }}
-  {% endif %}
+{% assign reviews = site.publications | where: "category", "working_paper" %}
+{% for post in reviews reversed %}
+* {{ post.citation | markdownify }}
 {% endfor %}
 
 ---
