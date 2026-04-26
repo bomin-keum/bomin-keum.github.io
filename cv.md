@@ -74,5 +74,3 @@ Service
 * Cambridge BroBono Project, organizer, “Meeting at the Crossroads: Aligning Global Agendas to End Exploitation”, 2024
 * Cambridge, co-organizer, "Misinformation Hackathon with CRASSH" (a UK-based policy think tank), 2024
 * Cambridge, organizer and MOC, "Decolonizing Criminology Classrooms: How Do We Move Beyond Rhetoric?" 2024
-
-[Download Full CV (PDF)](/assets/Bomin_Keum_CV.pdf){: .btn .btn--info}
