@@ -2,6 +2,8 @@
 layout: single
 title: "CV"
 permalink: /cv/
+author_profile: true
+classes: wide
 ---
 
 <div class="cv-embed-container">
