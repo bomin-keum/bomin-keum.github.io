@@ -4,33 +4,44 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* 1. Make your name stand out (The 'Small Name' fix) */
-.author__name {
-  font-size: 1.5rem !important;
-  font-weight: 700 !important;
-  color: #000 !important;
+/* 1. The "Hammer" to kill the Follow Button */
+.author__follow-button, button.author__follow-button, a.author__follow-button {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
 }
 
-/* 2. Style the top navigation (The 'Subheadings') */
+/* 2. Make the Name and Bio look bold and professional */
+.author__name {
+  font-size: 1.6rem !important;
+  font-weight: 800 !important;
+  margin-bottom: 0.25em !important;
+}
+
+.author__bio {
+  font-size: 0.95rem !important;
+  color: #555 !important;
+}
+
+/* 3. Sticky Top Navigation (The "Flow" fix) */
+.masthead {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.95); /* Slight transparency */
+  border-bottom: 1px solid #f2f2f2;
+}
+
 .masthead__menu-item a {
-  color: #444 !important;
+  color: #333 !important;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 0.85rem;
-  letter-spacing: 1px;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
 }
 
-/* 3. Hide the Follow button for a cleaner profile */
-.author__follow-button {
-  display: none !important;
-}
-
-/* 4. Fix the gap at the top */
-.initial-content {
-  margin-top: 1em !important;
-}
-
-/* 5. Flowing Navigation */
+/* 4. Smooth Scrolling for the anchors */
 html {
   scroll-behavior: smooth;
 }
