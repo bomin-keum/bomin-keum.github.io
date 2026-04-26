@@ -4,44 +4,45 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* 1. The "Hammer" to kill the Follow Button */
-.author__follow-button, button.author__follow-button, a.author__follow-button {
+/* 1. Kill the Site Title (top left) and Follow Button */
+.masthead__inner .site-title, 
+.author__follow-button, 
+.nav__title {
   display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
 }
 
-/* 2. Make the Name and Bio look bold and professional */
+/* 2. Bold Sidebar Name (The main focus) */
 .author__name {
   font-size: 1.6rem !important;
   font-weight: 800 !important;
-  margin-bottom: 0.25em !important;
+  color: #000 !important;
 }
 
-.author__bio {
-  font-size: 0.95rem !important;
-  color: #555 !important;
-}
-
-/* 3. Sticky Top Navigation (The "Flow" fix) */
+/* 3. Sticky Top Nav with Underline Effect */
 .masthead {
-  position: -webkit-sticky;
-  position: sticky;
+  position: sticky !important;
   top: 0;
   z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.95); /* Slight transparency */
+  background-color: #fff;
   border-bottom: 1px solid #f2f2f2;
 }
 
 .masthead__menu-item a {
-  color: #333 !important;
+  color: #666 !important;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.8rem;
-  letter-spacing: 0.5px;
+  padding-bottom: 5px;
+  transition: 0.3s;
 }
 
-/* 4. Smooth Scrolling for the anchors */
+.masthead__menu-item a:hover {
+  color: #000 !important;
+  border-bottom: 2px solid #000; /* Subtle underline on hover */
+}
+
+/* 4. The "Scrolling Feel" - Smooth and Padded */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Prevents titles from hiding under the sticky nav */
 }
