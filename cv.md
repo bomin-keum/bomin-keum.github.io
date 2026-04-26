@@ -22,3 +22,10 @@ classes: wide
     <i class="fas fa-download"></i> Download Full CV (PDF)
   </a>
 </div>
+
+<style>
+  .archive, .page {
+    width: 100% !important;
+    max-width: 1200px !important; /* Adjust this number to your liking */
+  }
+</style>
