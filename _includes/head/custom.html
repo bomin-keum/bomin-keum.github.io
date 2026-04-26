@@ -14,4 +14,22 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
-<!-- end custom head snippets -->
+<style>
+  #main, .masthead .inner, .page__footer .inner, .breadcrumbs .inner {
+    max-width: 95% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .archive, .page, .page__content, .initial-content {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  @media (min-width: 64em) {
+    .archive, .page {
+      display: flex !important;
+      justify-content: space-between;
+    }
+  }
+</style>
