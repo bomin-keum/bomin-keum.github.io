@@ -1,33 +1,19 @@
-title: "Bo Min Keum"
-subtitle: "ICCRI, SFU"
-url: "https://bomin-keum.github.io"
-baseurl: "" # Keep this explicitly empty
-remote_theme: "mmistakes/minimal-mistakes"
+title: Bo Min Keum
+description: PhD Student, ICCRI SFU
+remote_theme: BDHU/minimalist
+# Add this line to force your custom CSS
+css: /assets/css/style.scss
 
-# Top Navigation
-masthead_links:
-  - title: "About"
-    url: "/#about"
-  - title: "Research"
-    url: "/#research"
-  - title: "CV"
-    url: "/cv" # Keep this simple
-  - title: "Contact"
-    url: "/#contact"
+# Theme settings
+color-scheme: light # You can change this to 'light' if you prefer
+favicon: true
 
-# Force Jekyll to include the CV file
-include: [assets]
+# Your Sidebar/Contact links
+sidebar:
+  - name: Email
+    icon: <i class="fa-solid fa-envelope"></i>
+    link: mailto:bkeum@sfu.ca
 
-collections:
-  publications:
-    output: true
-    permalink: /:collection/:path/
-
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "single"
-      author_profile: true
-      classes: wide
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag

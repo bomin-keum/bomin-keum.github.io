@@ -1,16 +1,13 @@
-{% include base_path %}
-
-<meta charset="utf-8">
-
-{% include seo.html %}
-
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  window.addEventListener('load', function() {
+    AOS.init({
+      offset: 120, // trigger earlier/later
+      duration: 1000, // slower, smoother fade
+      easing: 'ease-in-out-quart',
+      once: false, // set to false so it 'pops' every time you scroll up/down
+    });
+  });
 </script>
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
