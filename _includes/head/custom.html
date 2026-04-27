@@ -16,59 +16,48 @@
 
 
 <style>
-  /* 1. Global Container Fixes (Centered & Balanced) */
-  #main {
-    max-width: 1100px !important; /* Slightly narrower for better readability */
-    margin: 0 auto !important;
-    padding: 40px 20px !important;
+  /* [Previous Container & Text Styles...] */
+
+  /* 1. Deepen the Heading Colors for better contrast */
+  h1, h2, h3 {
+    color: #000 !important; /* Pure black for maximum impact */
+    letter-spacing: -0.5px;
+    transition: color 0.3s ease; /* Smooth transition when interacting */
   }
 
-  .sidebar { display: none !important; }
-
-  /* 2. Heading Styles (Darker & Bold) */
-  h1, h2, h3, h4 {
-    color: #111 !important; /* Deep black for high contrast */
-    font-weight: 800 !important; /* Extra bold */
-    margin-top: 1.5em !important;
-    margin-bottom: 0.5em !important;
+  /* 2. Interactive Sections: They "pop" when hovered */
+  h3:hover {
+    color: #0056b3 !important; /* Subtle blue shift to show interactivity */
+    cursor: pointer;
   }
 
-  /* Specific sizing to create contrast */
-  h1 { font-size: 2.2em !important; } /* Page Title like "About" */
-  h3 { font-size: 1.4em !important; border-bottom: 1px solid #eee; padding-bottom: 5px; } /* Section headers like "Published" */
-
-  /* 3. Body Text Styles (Clean & Slightly Muted) */
-  p, li, div {
-    color: #444 !important; /* Slightly softer grey for long-form reading */
-    font-size: 1.05em !important;
-    line-height: 1.6 !important;
+  /* 3. The "Visual Anchor" (Simple border that guides the eye) */
+  h3 {
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 10px;
+    margin-top: 2em !important;
   }
 
-  /* 4. Hyperlink Styling */
-  a {
-    color: #0056b3 !important;
-    text-decoration: none;
-  }
-  a:hover { text-decoration: underline; }
-
-  /* 5. Navigation Bar (Top) Alignment */
-  .masthead__inner {
-    max-width: 1100px !important;
-    margin: 0 auto !important;
-    border-bottom: 1px solid #f2f2f2;
-  }
-
+  /* 4. Navigation Menu Highlight */
+  /* This ensures your top menu (ABOUT, RESEARCH, CV) feels crisp */
   .masthead__menu-item a {
-    font-weight: 700 !important;
-    color: #333 !important;
-    text-transform: uppercase;
-    font-size: 0.9em !important;
+    color: #666 !important;
+    transition: all 0.2s ease-in-out;
   }
 
-  /* 6. CV Embed Refinement */
-  .cv-embed-container iframe {
-    width: 100% !important;
-    border-radius: 4px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05); /* Adds a professional subtle shadow */
+  .masthead__menu-item a:hover {
+    color: #000 !important;
+    border-bottom: 2px solid #000;
+  }
+
+  /* 5. Refined Body Text */
+  p, li {
+    color: #333 !important; /* Darker than before for better accessibility */
+    font-weight: 400;
+  }
+
+  /* 6. Bold your name in research list specifically */
+  strong {
+    color: #000 !important;
   }
 </style>
