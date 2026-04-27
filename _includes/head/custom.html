@@ -16,29 +16,37 @@
 
 
 <style>
-  /* 1. Align main content perfectly with the navigation bar edges */
+  /* 1. Kill the Sidebar footprint entirely to prevent the "Shifted Left" look */
+  .sidebar {
+    display: none !important;
+  }
+
+  /* 2. Center the main container and align with the name 'Bo Min Keum' */
   #main {
-    max-width: 1280px !important; /* Matches standard Minimal Mistakes nav width */
+    max-width: 1280px !important;
     margin: 0 auto !important;
+    padding: 0 40px !important; /* Healthy breathing room so it's not suffocating */
+    display: block !important; 
+  }
+
+  /* 3. Force the content to take up 100% of the centered #main container */
+  .archive, .page, .page__content, .page__inner-wrap {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
     padding: 0 !important;
   }
 
-  .archive, .page, .page__content {
-    width: 100% !important;
-    padding-right: 0 !important;
-    padding-left: 0 !important;
+  /* 4. Ensure the navigation bar (Masthead) uses the exact same centering math */
+  .masthead__inner {
+    max-width: 1280px !important;
+    margin: 0 auto !important;
+    padding: 0 40px !important;
   }
 
-  /* 2. Fix the PDF Embed to hide the 'Page Thumbnails' sidebar */
-  /* Adding #toolbar=0&navpanes=0 to the URL is the trick! */
+  /* 5. Clean up the CV Embed */
   .cv-embed-container iframe {
     width: 100% !important;
-    height: 1100px;
-    border: none;
-  }
-
-  /* 3. Ensure the Sidebar (Bio) doesn't push content left */
-  .sidebar {
-    margin-right: 2em !important;
+    border: 1px solid #eee;
   }
 </style>
