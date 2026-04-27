@@ -5,7 +5,7 @@ remote_theme: BDHU/minimalist
 css: /assets/css/style.scss
 
 # Theme settings
-color-scheme: dark # You can change this to 'light' if you prefer
+color-scheme: light # You can change this to 'light' / dark if you prefer
 favicon: true
 
 # Your Sidebar/Contact links
