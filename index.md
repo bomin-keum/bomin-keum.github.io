@@ -51,11 +51,9 @@ Valdebenito, S., Duindam, H., **Keum, B. M.**, Squires, C., Craciunas, O., Tripa
 # Talks 
 
 ### Guest Lecture
-Guest Lecturer, <b>University of Sussex</b>, Sussex, 2026 **for Dr. Suraj Lakhani’s undergraduate course in Sociology,
-Law, and Terrorism
+Guest Lecturer, <b>University of Sussex</b>, Sussex, 2026 ***for Dr. Suraj Lakhani’s undergraduate course in Sociology, Law, and Terrorism*
 
-Guest Lecturer, <b>University of Waterloo</b>, Waterloo, 2026 **for Dr. Karmvir Padda’s 4th year undergraduate course
-SOC422: Violent Extremism and Terrorism
+Guest Lecturer, <b>University of Waterloo</b>, Waterloo, 2026 ***for Dr. Karmvir Padda’s 4th year undergraduate course SOC422: Violent Extremism and Terrorism*
 
 ### Conference
 Behavioural and Social Sciences in Security Conference (BASS26), Cardiff, 2026
@@ -88,6 +86,8 @@ Cambridge Cybercrime Centre (CCC), Cambridge, 2024
   </iframe>
 </div>
 </div>
+
+<br>
 
 <div data-aos="fade-up" markdown="1">
 # Contact 
