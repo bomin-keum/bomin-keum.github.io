@@ -14,35 +14,47 @@ Hi! I am a PhD student at the International CyberCrime Research Institute in Sim
 {: #research}
 
 ### Published
-{% assign published = site.publications | where: "category", "published" %}
-{% for post in published reversed %}
-* {{ post.citation | markdownify }}
-{% endfor %}
+**Keum, B. M.** (2026). Paths not taken: Early history of Incel communities, 1997-2014. *Internet Histories: Digital Technology, Culture, and Society*. [https://doi.org/10.1080/24701475.2026.2663680](https://doi.org/10.1080/24701475.2026.2663680)
+
+**Keum, B. M.** & Frank, R. (2026). How Incel research looks to a former Incel. *Critical Studies on Terrorism*. [https://doi.org/10.1080/17539153.2026.2629061](https://doi.org/10.1080/17539153.2026.2629061)
+
+**Keum, B. M.** & Frank, R. (2025). What do Incels.is users post before going silent? *VOX-Pol*. [https://www.voxpol.eu/](https://www.voxpol.eu/)
+
+**Keum, B. M.** (2025). Incel Paradox: Hating Others, While Hating Themselves? *VOX-Pol*. [https://www.voxpol.eu/](https://www.voxpol.eu/)
+
 
 ### Under Review
-{% assign reviews = site.publications | where: "category", "under_review" %}
-{% for post in reviews reversed %}
-* {{ post.citation | markdownify }}
-{% endfor %}
+Valdebenito, S., Duindam, H., **Keum, B. M.**, Squires, C., Craciunas, O., Tripathi, K., & Sutherland, A.(forthcoming). Cognitive and behavioural interventions for preventing terrorism and violent radicalisation: A systematic review and multi-Level meta-analysis. Campbell Systematic Reviews.***revised and resubmitted Dec2025*
+
+**Keum, B. M.** & Frank, R. (forthcoming). End justifies nothing? Nihilism on StormFront.org versus Incels.is. In *Digital Codes for Danger.* CRC Press. ***revised and resubmitted Apr2026*
+
+**Keum, B. M.** & Frank, R. (forthcoming). Leaving, but not gone. r/IncelExit and the missing "after". In *Digital Codes for Danger*. CRC Press. ***revised and resubmitted Apr2026*
+
 
 ### Working Papers
-{% assign reviews = site.publications | where: "category", "working_paper" %}
-{% for post in reviews reversed %}
-* {{ post.citation | markdownify }}
-{% endfor %}
+**Keum, B. M.**, Liu, A., Major, J. & Frank, R.  How far can LLMs go? Evidence from disinformation and violent extremism. 
 
-### Talks 
-Presenter, <b>Behavioural and Social Sciences in Security Conference (BASS26)</b>, Cardiff, 2026
-Presenter, <b>CONDUITS Modulations Conference</b>, Burnaby, 2026
+**Keum, B. M.** & Padda, K. Situated ethics and all the mess: Rapport and care, from and for BIPOC early career researchers. In *Emerging Perspectives on Youth (De)Radicalization*.
+
+
+# Talks 
+
+### Guest Lecture
 Guest Lecturer, <b>University of Sussex</b>, Sussex, 2026 **for Dr. Suraj Lakhani’s undergraduate course in Sociology,
 Law, and Terrorism
-Presenter, <b>Canadian Network of Security and Extremism Studies (CANSES)</b>, Burnaby, 2026
+
 Guest Lecturer, <b>University of Waterloo</b>, Waterloo, 2026 **for Dr. Karmvir Padda’s 4th year undergraduate course
 SOC422: Violent Extremism and Terrorism
+
+### Conference
+Presenter, <b>Behavioural and Social Sciences in Security Conference (BASS26)</b>, Cardiff, 2026
+Presenter, <b>CONDUITS Modulations Conference</b>, Burnaby, 2026
+Presenter, <b>Canadian Network of Security and Extremism Studies (CANSES)</b>, Burnaby, 2026
 Presenter, <b>VOX-Pol Next Gen Conference</b>, Prague, 2025
 Presenter, <b>Australia Violent Extremism and Radicalization to Terrorism (AVERT)</b>, Melbourne, 2024
 Presenter, <b>British Society of Criminology (BSC)</b>, Glasgow, 2024
 Presenter, <b>Cambridge Cybercrime Centre (CCC)</b>, Cambridge, 2024
+
 ---
 
 # CV
