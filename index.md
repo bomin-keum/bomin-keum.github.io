@@ -80,7 +80,7 @@ Cambridge Cybercrime Centre (CCC), Cambridge, 2024
 {: #cv}
 
 <div style="margin-top: 20px;">
-  <iframe 
+<iframe 
   src="/Bomin_Keum_CV.pdf#toolbar=0&navpanes=0&scrollbar=0&pagemode=none&view=FitH" 
   width="100%" 
   height="1000px" 
