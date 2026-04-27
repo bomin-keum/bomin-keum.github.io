@@ -36,6 +36,7 @@ Valdebenito, S., Duindam, H., **Keum, B. M.**, Squires, C., Craciunas, O., Tripa
 
 **Keum, B. M.** & Padda, K. Situated ethics and all the mess: Rapport and care, from and for BIPOC early career researchers. In *Emerging Perspectives on Youth (De)Radicalization*.
 
+---
 
 # Talks 
 
@@ -48,11 +49,17 @@ SOC422: Violent Extremism and Terrorism
 
 ### Conference
 Presenter, <b>Behavioural and Social Sciences in Security Conference (BASS26)</b>, Cardiff, 2026
+
 Presenter, <b>CONDUITS Modulations Conference</b>, Burnaby, 2026
+
 Presenter, <b>Canadian Network of Security and Extremism Studies (CANSES)</b>, Burnaby, 2026
+
 Presenter, <b>VOX-Pol Next Gen Conference</b>, Prague, 2025
+
 Presenter, <b>Australia Violent Extremism and Radicalization to Terrorism (AVERT)</b>, Melbourne, 2024
+
 Presenter, <b>British Society of Criminology (BSC)</b>, Glasgow, 2024
+
 Presenter, <b>Cambridge Cybercrime Centre (CCC)</b>, Cambridge, 2024
 
 ---
