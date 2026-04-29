@@ -52,16 +52,16 @@ Valdebenito, S., Duindam, H., **Keum, B. M.**, Squires, C., Craciunas, O., Tripa
 
 ### Guest Lecture
 Guest Lecturer (1hr), <b>University of Sussex</b>, Sussex, 2026 ***for Dr. Suraj Lakhani’s course in Sociology, Law, and Terrorism*
-Guest Lecturer (40min), <b>University of Waterloo</b>, Waterloo, 2026 ***for Dr. Karmvir Padda’s 4th year undergraduate course SOC422: Violent Extremism and Terrorism*
+<br>Guest Lecturer (40min), <b>University of Waterloo</b>, Waterloo, 2026 ***for Dr. Karmvir Padda’s 4th year undergraduate course SOC422: Violent Extremism and Terrorism*
 
 ### Conference
 Behavioural and Social Sciences in Security Conference (BASS26), Cardiff, 2026
-CONDUITS Modulations Conference, Burnaby, 2026
-Canadian Network of Security and Extremism Studies (CANSES), Burnaby, 2026
-VOX-Pol Next Gen Conference, Prague, 2025
-Australia Violent Extremism and Radicalization to Terrorism (AVERT), Melbourne, 2024
-British Society of Criminology (BSC), Glasgow, 2024
-Cambridge Cybercrime Centre (CCC), Cambridge, 2024
+<br>CONDUITS Modulations Conference, Burnaby, 2026
+<br>Canadian Network of Security and Extremism Studies (CANSES), Burnaby, 2026
+<br>VOX-Pol Next Gen Conference, Prague, 2025
+<br>Australia Violent Extremism and Radicalization to Terrorism (AVERT), Melbourne, 2024
+<br>British Society of Criminology (BSC), Glasgow, 2024
+<br>Cambridge Cybercrime Centre (CCC), Cambridge, 2024
 </div>
 
 <br>
