@@ -6,7 +6,7 @@ layout: default
 # About
 {: #about}
   
-Hi! I am a PhD student at the International CyberCrime Research Institute in Simon Fraser University. So far, my research focused on online radicalization patterns. Now, I evaluate what works to disrupt those patterns. I do so by engaging in computational methods for distinguishing “Violent” and “Non-Violent” user patterns, conducting a Campbell Systematic Review of radicalization prevention programs, and  interviewing formers to identify intervention target points to support those struggling to navigate exit.
+Hi! I am a PhD student at the International CyberCrime Research Institute in Simon Fraser University. My past work focused on online radicalization patterns. Now, my focus is on evaluating what works to disrupt those patterns. I do so by engaging in computational methods for distinguishing “Violent” and “Non-Violent” user patterns, conducting a Campbell Systematic Review of radicalization prevention programs, and  interviewing formers to identify intervention target points to support those struggling to navigate exit.
 </div>
 
 <br>
@@ -22,7 +22,7 @@ Hi! I am a PhD student at the International CyberCrime Research Institute in Sim
 
 **Keum, B. M.** & Frank, R. (2025). What do Incels.is users post before going silent? *[VOX-Pol](https://voxpol.eu/what-do-incels-is-users-post-before-going-silent/)*
 
-**Keum, B. M.** (2025). Incel Paradox: Hating Others, While Hating Themselves? *[VOX-Pol](https://voxpol.eu/incel-paradox-hating-others-while-hating-themselves/)*
+**Keum, B. M.** (2025). Incel paradox: Hating others, while hating themselves? *[VOX-Pol](https://voxpol.eu/incel-paradox-hating-others-while-hating-themselves/)*
 </div>
 
 <br>
@@ -51,23 +51,16 @@ Valdebenito, S., Duindam, H., **Keum, B. M.**, Squires, C., Craciunas, O., Tripa
 # Talks 
 
 ### Guest Lecture
-Guest Lecturer, <b>University of Sussex</b>, Sussex, 2026 ***for Dr. Suraj Lakhani’s undergraduate course in Sociology, Law, and Terrorism*
-
-Guest Lecturer, <b>University of Waterloo</b>, Waterloo, 2026 ***for Dr. Karmvir Padda’s 4th year undergraduate course SOC422: Violent Extremism and Terrorism*
+Guest Lecturer (1hr), <b>University of Sussex</b>, Sussex, 2026 ***for Dr. Suraj Lakhani’s course in Sociology, Law, and Terrorism*
+Guest Lecturer (40min), <b>University of Waterloo</b>, Waterloo, 2026 ***for Dr. Karmvir Padda’s 4th year undergraduate course SOC422: Violent Extremism and Terrorism*
 
 ### Conference
 Behavioural and Social Sciences in Security Conference (BASS26), Cardiff, 2026
-
 CONDUITS Modulations Conference, Burnaby, 2026
-
 Canadian Network of Security and Extremism Studies (CANSES), Burnaby, 2026
-
 VOX-Pol Next Gen Conference, Prague, 2025
-
 Australia Violent Extremism and Radicalization to Terrorism (AVERT), Melbourne, 2024
-
 British Society of Criminology (BSC), Glasgow, 2024
-
 Cambridge Cybercrime Centre (CCC), Cambridge, 2024
 </div>
 
