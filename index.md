@@ -6,7 +6,7 @@ layout: default
 # About
 {: #about}
   
-Hi! I am a PhD student at the International CyberCrime Research Institute in Simon Fraser University. My past work focused on online radicalization patterns. Now, my focus is on evaluating what works to disrupt those patterns. I do so by engaging in computational methods for distinguishing “Violent” and “Non-Violent” user patterns, conducting a Campbell Systematic Review of radicalization prevention programs, and  interviewing formers to identify intervention target points to support those struggling to navigate exit.
+Hi! I am a PhD student at the International CyberCrime Research Institute in Simon Fraser University. My previous work focused on online radicalization patterns. Now, I focus on evaluating what works to disrupt those patterns. I do so by engaging in computational methods for distinguishing “Violent” and “Non-Violent” user patterns, conducting a Campbell Systematic Review of radicalization prevention programs, and  interviewing formers to identify intervention target points to support those struggling to navigate exit.
 </div>
 
 <br>
