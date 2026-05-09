@@ -20,7 +20,7 @@ Hi! I am a PhD student at the International CyberCrime Research Institute in Sim
 
 **Keum, B. M.** & Frank, R. (2026). How Incel research looks to a former Incel. *Critical Studies on Terrorism*. [https://doi.org/10.1080/17539153.2026.2629061](https://doi.org/10.1080/17539153.2026.2629061)
 
-**Keum, B. M.** (2026). Incels' "paths not taken" --and why they matter now. *[VOX-Pol](https://voxpol.eu/what-do-incels-is-users-post-before-going-silent/](https://voxpol.eu/incels-paths-not-taken-and-why-they-matter-now/)*
+**Keum, B. M.** (2026). Incels' "paths not taken" --and why they matter now. *[VOX-Pol](https://voxpol.eu/incels-paths-not-taken-and-why-they-matter-now/)*
 
 **Keum, B. M.** & Frank, R. (2025). What do Incels.is users post before going silent? *[VOX-Pol](https://voxpol.eu/what-do-incels-is-users-post-before-going-silent/)*
 
