@@ -33,18 +33,9 @@ Hi! I am a PhD student at the International CyberCrime Research Institute in Sim
 ### Under Review
 Valdebenito, S., Duindam, H., **Keum, B. M.**, Squires, C., Craciunas, O., Tripathi, K., & Sutherland, A.(forthcoming). Cognitive and behavioural interventions for preventing terrorism and violent radicalisation: A systematic review and multi-Level meta-analysis. Campbell Systematic Reviews.***revised and resubmitted Dec2025*
 
-**Keum, B. M.** & Frank, R. (forthcoming). End justifies nothing? Nihilism on StormFront.org versus Incels.is. In *Digital Codes for Danger.* CRC Press. ***revised and resubmitted Apr2026*
+**Keum, B. M.** & Frank, R. (forthcoming). End justifies nothing? Nihilism on StormFront.org versus Incels.is. In *Digital Codes for Danger.* CRC Press. ***accepted Apr2026*
 
-**Keum, B. M.** & Frank, R. (forthcoming). Leaving, but not gone. r/IncelExit and the missing "after". In *Digital Codes for Danger*. CRC Press. ***revised and resubmitted Apr2026*
-</div>
-
-<br>
-
-<div data-aos="fade-up" data-aos-delay="200" markdown="1">
-### Working Papers
-**Keum, B. M.**, Liu, A., Major, J. & Frank, R.  How far can LLMs go? Evidence from disinformation and violent extremism. 
-
-**Keum, B. M.** & Padda, K. Situated ethics and all the mess: Rapport and care, from and for BIPOC early career researchers. In *Emerging Perspectives on Youth (De)Radicalization*.
+**Keum, B. M.** & Frank, R. (forthcoming). Leaving, but not gone. r/IncelExit and the missing "after". In *Digital Codes for Danger*. CRC Press. ***accepted Apr2026*
 </div>
 
 <br>
