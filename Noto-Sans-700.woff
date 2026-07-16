@@ -1,0 +1,9 @@
+---
+---
+
+@use "colors" as *;
+
+:root {
+  @include colors;
+  @include light-colors;
+}
