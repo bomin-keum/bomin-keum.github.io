@@ -17,3 +17,6 @@ sidebar:
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
+
+exclude:
+  - assets/css/colors-auto-default-dark.scss
