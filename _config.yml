@@ -1,6 +1,6 @@
 title: Bo Min Keum
 description: PhD Student, ICCRI SFU
-remote_theme: BDHU/minimalist@v0.1.0
+remote_theme: BDHU/minimalist
 # Add this line to force your custom CSS
 css: /assets/css/style.scss
 
