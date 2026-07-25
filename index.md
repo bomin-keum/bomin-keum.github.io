@@ -6,7 +6,7 @@ layout: default
 # About
 {: #about}
   
-Hi! I am a PhD student at the International CyberCrime Research Institute in Simon Fraser University. My previous work focused on online radicalization patterns. Now, I focus on evaluating what works in preventing and countering violent extremism (P/CVE). I do so by engaging in computational methods for distinguishing “Violent” and “Non-Violent” user patterns, conducting a Campbell Systematic Review of radicalization prevention programs, and  interviewing formers to identify intervention target points to support those struggling to navigate exit.
+Hi! I am a PhD student at the International CyberCrime Research Institute in Simon Fraser University. My previous work focused on understanding online radicalization processes. Now, I focus on evaluating what works in preventing and countering violent extremism (P/CVE). I do so by engaging in computational methods for distinguishing “Violent” and “Non-Violent” user patterns, conducting a Campbell Systematic Review of radicalization prevention programs, and  interviewing formers to identify intervention target points to support those struggling to navigate exit.
 </div>
 
 <br>
@@ -16,7 +16,7 @@ Hi! I am a PhD student at the International CyberCrime Research Institute in Sim
 {: #research}
 
 ### Published
-**Keum, B. M.** (2026). Paths not taken: Early history of Incel communities, 1997-2014. *Internet Histories: Digital Technology, Culture, and Society*. [https://doi.org/10.1080/24701475.2026.2663680](https://doi.org/10.1080/24701475.2026.2663680)
+**Keum, B. M.** (2026). Paths not taken: Early history of Incel communities, 1997-2014. *Internet Histories: Digital Technology, Culture, and Society*. [https://doi.org/10.1080/24701475.2026.2663680](https://doi.org/10.1080/24701475.2026.2663680) **Selected for the "Early Career Researcher Best Paper Award"*
 
 **Keum, B. M.** & Frank, R. (2026). How Incel research looks to a former Incel. *Critical Studies on Terrorism*. [https://doi.org/10.1080/17539153.2026.2629061](https://doi.org/10.1080/17539153.2026.2629061)
 
