@@ -16,7 +16,7 @@ Hi! I am a PhD student at the International CyberCrime Research Institute in Sim
 {: #research}
 
 ### Published
-**Keum, B. M.** (2026). Paths not taken: Early history of Incel communities, 1997-2014. *Internet Histories: Digital Technology, Culture, and Society*. [https://doi.org/10.1080/24701475.2026.2663680](https://doi.org/10.1080/24701475.2026.2663680) **Selected for the "Early Career Researcher Best Paper Award"*
+**Keum, B. M.** (2026). Paths not taken: Early history of Incel communities, 1997-2014. *Internet Histories: Digital Technology, Culture, and Society*. [https://doi.org/10.1080/24701475.2026.2663680](https://doi.org/10.1080/24701475.2026.2663680) **selected for "Early Career Researcher Best Paper Award"*
 
 **Keum, B. M.** & Frank, R. (2026). How Incel research looks to a former Incel. *Critical Studies on Terrorism*. [https://doi.org/10.1080/17539153.2026.2629061](https://doi.org/10.1080/17539153.2026.2629061)
 
